@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChacaStore - Página Simple</title>
+  <style>
+    body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #f6f8fa; color: #111827; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+    header { text-align: center; margin-bottom: 2rem; }
+    h1 { margin: 0; font-size: 2rem; }
+    p.lead { color: #334155; }
+    .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+    .card { border: 1px solid #d1d5db; border-radius: 12px; background: #fff; padding: 1rem; box-shadow: 0 2px 8px rgba(15,23,42,.08); }
+    .card h3 { margin: 0 0 .5rem; font-size: 1.1rem; }
+    .card p { margin: 0.3rem 0 1rem; color: #475569; }
+    .btn { display: inline-block; padding: 0.45rem 0.9rem; border-radius: 999px; border: none; cursor: pointer; background: #2563eb; color:#fff; font-weight:600; text-decoration:none; }
+    .btn:hover { background: #1d4ed8; }
+    footer { margin-top:2rem; text-align:center; color:#64748b; font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Bienvenido a ChacaStore</h1>
+      <p class="lead">Una página simple para mostrar productos y un diseño responsivo con HTML/CSS.</p>
+    </header>
+
+    <section class="products">
+      <article class="card">
+        <h3>Producto 1</h3>
+        <p>Descripción breve del producto 1 con características principales.</p>
+        <a class="btn" href="#">Agregar al carrito</a>
+      </article>
+      <article class="card">
+        <h3>Producto 2</h3>
+        <p>Descripción breve del producto 2 con características principales.</p>
+        <a class="btn" href="#">Agregar al carrito</a>
+      </article>
+      <article class="card">
+        <h3>Producto 3</h3>
+        <p>Descripción breve del producto 3 con características principales.</p>
+        <a class="btn" href="#">Agregar al carrito</a>
+      </article>
+      <article class="card">
+        <h3>Producto 4</h3>
+        <p>Descripción breve del producto 4 con características principales.</p>
+        <a class="btn" href="#">Agregar al carrito</a>
+      </article>
+    </section>
+
+    <footer>
+      &copy; 2026 ChacaStore. Hecho con ❤️ por Cesar.
+    </footer>
+  </div>
+</body>
+</html>
